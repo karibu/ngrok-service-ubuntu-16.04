@@ -1,6 +1,6 @@
 <body>
   <div>
-    <p>
+    <span>
       <h2>How to set up Ngrok to be launched automatically and run the tunnels set in the config file:</h2>
       <ol>
         <li>Download and install NGROK</li>
@@ -13,9 +13,9 @@
         <li><b>systemctl daemon-reload</b></li>
         <li><b>systemctl enable ngrok.service</b></li>
       </ol>
-    </p>
-
-    <p>If you want to check that everything is working:
+    </span>
+    <span>
+      If you want to check that everything is working:
       <ol>
         <li>
           <ul>
@@ -25,6 +25,6 @@
         </li>
         <li>Reboot your system and check if the tunnels are running</li>
      </ol>
-    </p>
+    </span>
   </div>
 </body>
