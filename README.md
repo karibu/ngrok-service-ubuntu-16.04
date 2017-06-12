@@ -5,7 +5,7 @@
     </span>
     <span>
       <ol>
-        <li>Download and install NGROK</li>
+        <li>Download and install [NGROK](https://ngrok.com/)</li>
         <li>Copy ngrok folder to /usr/local/bin/</li>
         <li>Rename or Copy /usr/local/bin/ngrok/ngrok.yml.example to /usr/local/bin/ngrok/ngrok.yml</li> 
         <li>Tweak the settings in the newly copied/renamed /usr/local/bin/ngrok/ngrok.yml config (token, tunnels, etc...)</li>
