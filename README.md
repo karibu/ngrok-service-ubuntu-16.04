@@ -7,6 +7,7 @@
         <li>Copy ngrok folder to /usr/local/bin/</li>
         <li>Rename or Copy /usr/local/bin/ngrok/ngrok.yml.example to /usr/local/bin/ngrok/ngrok.yml</li> 
         <li>Tweak the settings in the newly copied/renamed /usr/local/bin/ngrok/ngrok.yml config (token, tunnels, etc...)</li>
+        <li>In /usr/local/bin/ngrok/ngrok.sh, change the path to ngrok exe if you installed it in a different path</li>
         <li><b>chmod 744 /usr/local/bin/ngrok/ngrok.sh</b></li>
         <li>Copy ngrok.service to /etc/systemd/system</li>
         <li><b>chmod 664 /etc/systemd/system/ngrok.service</b></li>
