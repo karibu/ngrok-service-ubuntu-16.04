@@ -1,7 +1,9 @@
 <body>
   <div>
     <span>
-      <h2>How to set up Ngrok to be launched automatically and run the tunnels set in the config file:</h2>
+    <h2>Set up Ngrok to be launched automatically and run the tunnels set in the config file</h2>
+    </span>
+    <span>
       <ol>
         <li>Download and install NGROK</li>
         <li>Copy ngrok folder to /usr/local/bin/</li>
