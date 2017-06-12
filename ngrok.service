@@ -1,0 +1,12 @@
+
+[Unit]
+Description= Run all ngrok tunnel at launch
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ngrok/ngrok.sh
+
+[Install]
+WantedBy=multi-user.target
+
+

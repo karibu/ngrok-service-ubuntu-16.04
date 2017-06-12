@@ -1,0 +1,14 @@
+authtoken: @@ReplaceThisByYourToken@@
+region: us
+json_resolver_url: ""
+dns_resolver_ips: []
+console_ui: "false"
+tunnels:
+  vhost.example:
+    addr: 80
+    host_header: yourHostHeader_CanBeApacheVhost
+    hostname: yourhostname.ngrok.io
+    inspect: false
+    proto: http
+
+
